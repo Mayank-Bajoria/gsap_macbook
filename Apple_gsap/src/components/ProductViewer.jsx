@@ -10,7 +10,7 @@ import ModelSwitcher from './three/ModelSwitcher'
 
 const ProductViewer = () => {
   const { color, scale, setColor, setScale } = useMacbookStore();
-  const isMobile = useMediaQuery({query :'max-width : 1024px'})
+  const isMobile = useMediaQuery({ query: '(max-width: 1024px)' })
 
   return (
     <section id="product-viewer">
